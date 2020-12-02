@@ -1,12 +1,30 @@
 ﻿using System;
+using PropertyGenerator;
 
-namespace PropertyGenerator.Sample
+namespace PropertyGeneratorSample
 {
-    class Program
+    public partial class Product
     {
-        static void Main(string[] args)
+        [GetterProperty(PropertyName = "Identifier")]
+        private readonly int id;
+
+        [GetterProperty] private readonly string name;
+
+        public Product(string name, int id)
         {
-            Console.WriteLine("Hello World!");
+            this.name = name;
+            this.id = id;
+        }
+    }
+
+    public static class UseAutoNotifyGenerator
+    {
+        public static void Main()
+        {
+            var product = new Product("Great Pen", 100);
+
+            Console.WriteLine($"Product.Name = {product.Name}");
+            Console.WriteLine($"Product.Identifier = {product.Identifier}");
         }
     }
 }
