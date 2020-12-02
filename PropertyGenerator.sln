@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyGenerator", "PropertyGenerator\PropertyGenerator.csproj", "{368C46B4-6E7F-4A4C-87C8-159D06D74C26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyGenerator.Sample", "PropertyGenerator.Sample\PropertyGenerator.Sample.csproj", "{571C4CD2-89DD-446B-86D4-31A242DDC371}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{368C46B4-6E7F-4A4C-87C8-159D06D74C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{368C46B4-6E7F-4A4C-87C8-159D06D74C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{368C46B4-6E7F-4A4C-87C8-159D06D74C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571C4CD2-89DD-446B-86D4-31A242DDC371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571C4CD2-89DD-446B-86D4-31A242DDC371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571C4CD2-89DD-446B-86D4-31A242DDC371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571C4CD2-89DD-446B-86D4-31A242DDC371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
